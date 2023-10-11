@@ -12,10 +12,10 @@ You can check those spikes in different ping/latency tests. I used next tools:
 On https://packetlosstest.com/ select `Call of Duty: Warzone` preset, increase `Acceptable delay` up to 500 ms (this test has really high ping even with close servers), increase `Duration` to 60 seconds. uou can also increase Frequency for test. For example some applications like Zoom requires way more then 60 pings/sec
 
 If you see this pattern, it means you have systematic latency spikes and this Windows task scheduler script probably can fix them:
-![latency_spikes](https://github.com/Zankomag/WiFi_Fix/assets/27448371/8583e4e8-a733-4057-be51-543c062d2d98)
+![latency_spikes](https://github.com/Zankomag/WiFi_Fix/assets/27448371/647748d3-8306-4aac-af86-4629921ba303)
 
 If you see this pattern, it means you don't have any issues
-![regular_ping](https://github.com/Zankomag/WiFi_Fix/assets/27448371/a2370ce8-1a22-41bd-ac7d-65918622c186)
+![regular_ping](https://github.com/Zankomag/WiFi_Fix/assets/27448371/b2bffb02-b352-4710-acd1-c59a6191ef29)
 (These two letancy tests were taken at the same time with my WiFi adapter and my phone)
 
 You definitelly need to check this with several different ping/latency tests and also try a different WiFi adapter to make sure the issue is with the adapter itself
