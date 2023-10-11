@@ -6,7 +6,7 @@ Windows performs WiFi networks scan every ~3-4 seconds and it takes ~2-3 seconds
 Some WiFi adapters (for example my ASUS PCE-AXE59BT with its crappy Mediatek chip) have an issue when these WiFi scans performed by Windows causing high latency spikes
 You can check those spikes in different ping/latency tests. I used next tools:
 - https://packetlosstest.com/ (can capture results in a nice chart and has flexible settings)
-- playing CS2 with `cq_netgraph 1` command, it has a nice visual representation during the game, but you will see a lost of lost packets. Because in any real-time online game big latency means lost packets.
+- playing CS2 with `cq_netgraph 1` command, it has a nice visual representation during the game, but you will see a lost of lost packets, because in any real-time online game big latency means lost packets.
 
 ## How latency spikes look like
 On https://packetlosstest.com/ select `Call of Duty: Warzone` preset, increase `Acceptable delay` up to 500 ms (this test has really high ping even with close servers), increase `Duration` to 60 seconds. uou can also increase Frequency for test. For example some applications like Zoom requires way more then 60 pings/sec
